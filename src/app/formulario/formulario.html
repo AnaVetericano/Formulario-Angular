@@ -1,0 +1,11 @@
+<h1>FORMULARIO PRODUCTO</h1>
+<form (ngSubmit)="guardar()">
+    <label>Codigo</label>
+    <input [(ngModel)] = "codigo"    name="codigo"      placeholder="escriba codigo">
+    <label>Nombre</label>
+    <input [(ngModel)] = "nombre"    name="nombre"      placeholder="escriba nombre producto">
+    <label>Precio</label>
+    <input [(ngModel)] = "precio"    name="precio"      placeholder="escriba precio producto">
+    <button type="submit">Guardar</button>
+    <button>Cancelar</button>
+</form>

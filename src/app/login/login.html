@@ -1,0 +1,9 @@
+<h1>Login</h1>
+<form (ngSubmit)="iniciarSesion()">
+    <label>Correo</label>
+    <input [(ngModel)]= "email"         name="email"       placeholder="escriba email">
+    <label>Password</label>
+    <input [(ngModel)]= "password"   name="password"    placeholder="escriba password">
+    <button type="submit">Inicar Sesion</button>
+
+</form>

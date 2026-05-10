@@ -1,12 +1,13 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Formulario } from './formulario/formulario';
+import { Login } from './login/login';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Formulario, Login],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('proyectoformulario');
+ 
 }
